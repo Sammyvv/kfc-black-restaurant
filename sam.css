@@ -1,0 +1,55 @@
+h1 {
+  color: white;
+  text-align: center;
+}
+body {
+  background-color: tomato;
+}
+
+
+#playlist {
+  float: left;
+  width: 30%;
+  background: green;
+  height: 100px;
+  margin: 5px;
+}
+
+.Sam_en_Jeb_button {
+  background-color: darkgreen;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 95%;
+}
+
+.mijn_button:hover {
+  color: white;
+  background-color: red;
+  border: solid white 1px;
+}
+
+#fotos {
+  float: left;
+  width: 65%;
+  height: 300px;
+  background: darkgreen;
+  margin: 5px;
+}
+
+#eerste_foto,
+#tweede_foto,
+#derde_foto,
+#vierde_foto {
+  display: none
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
